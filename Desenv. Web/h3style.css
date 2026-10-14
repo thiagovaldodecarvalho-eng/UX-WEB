@@ -1,0 +1,18 @@
+h3 {
+    color: cyan;
+    font-size: 1.5em;
+}
+p.formatacao1,p.formatacao3{
+    color: blue;
+    border-color: blue;
+    border: thin;
+}
+p.formatacao2{
+    color: cyan;
+    border-color: cyan;
+    border: thin;
+}
+#seletor{
+    background-color: aquamarine;
+    text-align: right;
+}

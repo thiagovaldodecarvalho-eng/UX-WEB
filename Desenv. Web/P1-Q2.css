@@ -1,0 +1,22 @@
+/* CSS styles */
+h2{
+border-bottom: 4px solid orange;
+  border-right: 4px solid orange;
+  border-left: 5px solid orange;
+}
+h5{
+  border-bottom: 2px solid grey;
+}
+h3::first-letter {
+font-size:32;}  
+UL{
+    border: 5px double;
+    border-radius: 15px;  
+    list-style-type: none;
+    list-style-image: url("https://http2.mlstatic.com/D_Q_NP_2X_637730-CBT112510840536_062026-R.webp");
+}
+a:hover{
+  text-decoration: underline;
+  color:red;
+  font-size:150%;
+}

@@ -1,0 +1,12 @@
+UL{
+    list-style-type: none;
+    list-style-image: url("cubo-rosa.gif");
+}
+OL{
+    list-style-type: circle;
+    list-style-type: upper-roman;
+}
+p:not(.formatacao2){
+    color: pink;
+    text-decoration: underline;
+}

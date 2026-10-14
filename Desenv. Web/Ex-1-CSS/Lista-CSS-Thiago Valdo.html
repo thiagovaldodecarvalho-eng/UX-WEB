@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exemplo de CSS</title>
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="LCstyle.css">
+
+    <!-- CSS INTERNO -->
+    <style>
+
+        .paragrafo-interno {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+        }
+
+        table {
+            width: 98%;
+            border-collapse: collapse;
+            border: 1px solid white;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid white;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid white;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center; color: #444080;">
+        Exemplo de CSS Externo, Interno, Inline e Tabela
+    </h1>
+
+    <!-- CSS EXTERNO -->
+    <p class="paragrafo-externo">
+        Este parágrafo utiliza a formatação do CSS externo.
+    </p>
+
+    <!-- CSS INTERNO -->
+    <p class="paragrafo-interno">
+        Este parágrafo utiliza a formatação do CSS interno.
+    </p>
+
+    <!-- CSS INLINE -->
+    <p style="background-color: #d6d600; color: red; font-weight: bold;">
+        Este parágrafo utiliza a formatação do CSS inline.
+    </p>
+
+    <h2>
+        Exemplo de Tabela com CSS
+    </h2>
+
+    <table>
+
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+
+        <tr>
+            <td style="color: red;">
+                João
+            </td>
+
+            <td>
+                28
+            </td>
+
+            <td>
+                Rio de Janeiro
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Maria
+            </td>
+
+            <td style="background-color: #ffd900;">
+                32
+            </td>
+
+            <td>
+                São Paulo
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                José
+            </td>
+
+            <td>
+                45
+            </td>
+
+            <td>
+                Belo Horizonte
+            </td>
+        </tr>
+
+    </table>
+
+    <p>
+        <strong>
+            **Lembre que vocês podem formatar os elementos HTML,
+            inclusive th e td por exemplo
+        </strong>
+    </p>
+
+</body>
+
+</html>

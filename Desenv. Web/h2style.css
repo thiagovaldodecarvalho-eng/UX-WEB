@@ -1,0 +1,17 @@
+h2{
+border-bottom: 2px dashed brown;
+}
+p.formatacao1,p.formatacao3{
+    color: red;
+    border-left: thick solid goldenrod;
+}
+p.formatacao2{
+    color: green;
+    letter-spacing: 3px;
+    word-spacing: 1cm;
+}
+#seletor{
+    background-color: lightgreen;
+    text-align: right;
+    border: 6px groove fuchsia;
+}

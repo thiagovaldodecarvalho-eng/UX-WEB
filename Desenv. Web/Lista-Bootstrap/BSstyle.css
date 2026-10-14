@@ -1,0 +1,46 @@
+.container {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    border-top: 5px solid #006b7a;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+/* Borda vermelha da célula Mercedes */
+.borda-mercedes {
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
+
+/* Borda azul da célula Ferrari */
+.borda-ferrari {
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+    border-top: 5px solid blue;
+}
+
+a {
+    font-size: 18px;
+}
+tbody tr:hover td {
+    background-color: grey;
+    cursor: pointer;
+}
